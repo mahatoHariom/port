@@ -12,22 +12,26 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
+          live="true"
           src="/spotify.webp"
           title="Spotify Next.js Clone"
           description="A Spotify Clone Build in Nextjs with Supabase sql database , radix UI, zustand, while following clean code while following OOPS, "
         />
         <ProjectCard
           src="/notion.jpg"
+          live="true"
           title="Notion AI Clone"
           description="A Notion Clone  build in Next js with OPENAI API Integration with using tanstack, and Clerk Auth and Using Quill library."
         />
         <ProjectCard
+          live="true"
           src="/ecommerce.webp"
           title="Ecommerce Backend"
           description="A Ecommerce Backend built in Nodejs and Express, with Middleware , Authentication , Admin section , Functionality a Ecommerce have ."
         />
         <ProjectCard
           src="/zip.png"
+          live="true"
           title="Zipper"
           description="A Complete File Zipper and UnZipper built in Rust and GO follows Data compression pattern "
         />
